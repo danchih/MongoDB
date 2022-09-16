@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "63245e7d2a448eceeb3ba25e"
+  },
+  "nome": "Daniela"
+},{
+  "_id": {
+    "$oid": "632464ec2a448eceeb3ba25f"
+  },
+  "Estudante": "Daniela",
+  "Escola": {
+    "ID": 266,
+    "Nome": "puc",
+    "Cidade": "Campinas",
+    "Estado": "SP"
+  },
+  "Notas": [
+    10,
+    20,
+    30,
+    40,
+    50
+  ]
+}]
