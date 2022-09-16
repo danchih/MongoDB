@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "63246b9cfb02054c8031788d"
+  },
+  "Nome": "Alonso Xastre",
+  "Email": "xastre@puccampinas.edu.br",
+  "Matéria": "12902"
+},{
+  "_id": {
+    "$oid": "63246bf2fb02054c8031788e"
+  },
+  "Nome": "Ricardo Pannain",
+  "Email": "pannain@puccampinas.edu.br",
+  "Matéria": "12903"
+},{
+  "_id": {
+    "$oid": "63246c20fb02054c8031788f"
+  },
+  "Nome": "Valdemiro dos Santos",
+  "Email": "miro@puccampinas.edu.br",
+  "Matéria": "11445"
+}]
