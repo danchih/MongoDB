@@ -1,53 +1,99 @@
-[{
-  "_id":  giovana
-    "$oid": "6324674dcd6d60a78129f1c5"
-  },
-  "Nome": "Alonso Xastre",
-  "Email": "xastre@puccampinas.edu.br",
-  "RP": {
+import mongoose from 'mongoose'
+import crypto from 'crypto'
+
+mongoose.materia(
+    {
+        "_id": {
+          "$oid": "63246a1cfb02054c8031786d"
+        },
+        "Nome": "Pi: Desenvolvimento de Sistemas Web",
+        "ID": "12902",
+        "Sala": "H15 S04"
+      },{
+        "_id": {
+          "$oid": "63246a9bfb02054c8031786f"
+        },
+        "Nome": "Organizacao de Sistemas de Computacao",
+        "ID": "12903",
+        "Sala": "H15 110"
+      },{
+        "_id": {
+          "$oid": "63246ad2fb02054c80317870"
+        },
+        "Nome": "Calculo I",
+        "ID": "11445",
+        "Sala": "H15 111"
+      })
+
+mongoose.alunos(
+    [{
+        "_id": {
+          "$oid": "632462ceddd55ad84a07c563"
+        },
+        "nome": "bia",
+        "RA": "22002150",
+        "materia": "desenv web",
+        "hobby": "cozinhar"
+      },{
+        "_id": {
+          "$oid": "632468c3ddd55ad84a07c567"
+        },
+        "nome": "flavia",
+        "RA": "22009596",
+        "materia": "calculo",
+        "hobby": "ler"
+      },{
+        "_id": {
+          "$oid": "632469ccddd55ad84a07c568"
+        },
+        "nome": "dani",
+        "RA": "22003456",
+        "materia": "osc",
+        "hobby": "esportes"
+      },{
+        "_id": {
+          "$oid": "63246a20ddd55ad84a07c569"
+        },
+        "nome": "luana",
+        "RA": "22002154",
+        "materia": "teologia",
+        "hobby": "ler"
+      },{
+        "_id": {
+          "$oid": "63246a50ddd55ad84a07c56a"
+        },
+        "nome": "gi",
+        "RA": "22002134",
+        "materia": "robotica",
+        "hobby": "dormir"
+      }]
+)
+
+mongoose.professores(
+    {"id": {
+        "$oid": "63246a50ddd55ad84a08d76a"
+    },
+    "Nome": "Leandro Alonso Xastre",
+    "Email": "xastre@puccampinas.edu.br",
+    "RP": {
     "$numberDecimal": "12902"
   },
   "Tempo de casa": "13 Ano(s) 5 Mês(s)"
-},{
-  "_id": {
-    "$oid": "63246881cd6d60a78129f1c7"
-  },
-  "Nome": "Ricardo Pannain",
-  "Email": "pannain@puccampinas.edu.br",
-  "RP": {
+    },{ "id": {
+        "$oid": "63246a50ddd55ad84a08d77c"
+    },
+    "Nome": "Ricardo Pannain",
+    "Email": "pannain@puccampinas.edu.br",
+    "RP": {
     "$numberDecimal": "12903"
   },
-  "Tempo de casa": " 34 Ano(s) 1 Mês(s)"
-},{
-  "_id": {
-    "$oid": "6324688ecd6d60a78129f1c8"
-  },
-  "Nome": "Valdemiro dos Santos",
-  "Email": "miro@puccampinas.edu.br",
-  "RP": {
-    "$numberDecimal": "12904"
-  },
-  "Tempo de casa": "10 Ano(s) 6 Mês(s)"
-}]
-=======
-    "$oid": "63246b9cfb02054c8031788d"
-  },
-  "Nome": "Alonso Xastre",
-  "Email": "xastre@puccampinas.edu.br",
-  "Matéria": "12902"
-},{
-  "_id": {
-    "$oid": "63246bf2fb02054c8031788e"
-  },
-  "Nome": "Ricardo Pannain",
-  "Email": "pannain@puccampinas.edu.br",
-  "Matéria": "12903"
-},{
-  "_id": {
-    "$oid": "63246c20fb02054c8031788f"
-  },
-  "Nome": "Valdemiro dos Santos",
-  "Email": "miro@puccampinas.edu.br",
-  "Matéria": "11445"
-}]
-
+  "Tempo de casa": "34 Ano(s) 1 Mês(s)"
+    },{ "id": {
+        "$oid": "63246a50ddd55ad84a08d79b"
+    },
+    "Nome": "Valdemiro dos Santos",
+    "Email": "miro@puccampinas.edu.br",
+    "RP": {"$numberDecimal": "12902"},
+    "Tempo de casa": "10 Ano(s) 6 Mês(s)"
+    }
+)
