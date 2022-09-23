@@ -1,2 +1,2 @@
 # Mongo
-Banco de dados não relacional
+MongoDB é um banco de dados não relacional
