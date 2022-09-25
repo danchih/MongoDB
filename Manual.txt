@@ -3,9 +3,9 @@ MANUAL DE EXECUÇÃO DA IMAGEM MONGO:
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 TERMINAL PC / VS CODE:
 
-docker build -t dockermongo:1.0.0 .                                 \\ Construição da imagem (esse passo nao é necessario se utilizar o repositorio do Docker Hub)
+docker build -t dockermongo:1.0.0 .                                 \\ Construição da imagem
 
-docker run -it --name trabalho_MongoDB dockermongo:1.0.0            \\ Inicializando um container nomeado de "trabalhoMongoDB" da imagem criada (a imagem é  danchih/dockermongo:1.0.0  se estiver utilizando o Docker Hub)
+docker run -it --name trabalho_MongoDB dockermongo:1.0.0            \\ Inicializando um container nomeado de "trabalhoMongoDB" da imagem criada 
 
 docker ps                                                           \\ Sera utilizado para descobrir o ID do container
 
