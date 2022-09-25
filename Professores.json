@@ -1,28 +1,16 @@
-[
-    {"id": {
-        "$oid": "63246a50ddd55ad84a08d76a"
-    },
+[{
     "Nome": "Leandro Alonso Xastre",
     "Email": "xastre@puccampinas.edu.br",
-    "RP": {
-    "$numberDecimal": "12902"
-  },
-  "Tempo de casa": "13 Ano(s) 5 Mês(s)"
-    },{ "id": {
-        "$oid": "63246a50ddd55ad84a08d77c"
-    },
+    "Matéria": "12902"
+    "Tempo de casa": "13 Ano(s) 5 Mês(s)"
+ },
     "Nome": "Ricardo Pannain",
     "Email": "pannain@puccampinas.edu.br",
-    "RP": {
-    "$numberDecimal": "12903"
-  },
-  "Tempo de casa": "34 Ano(s) 1 Mês(s)"
-    },{ "id": {
-        "$oid": "63246a50ddd55ad84a08d79b"
-    },
+    "Matéria": "12903"
+    "Tempo de casa": "34 Ano(s) 1 Mês(s)"
+ },
     "Nome": "Valdemiro dos Santos",
     "Email": "miro@puccampinas.edu.br",
-    "RP": {"$numberDecimal": "12902"},
+    "Matéria": "12902"
     "Tempo de casa": "10 Ano(s) 6 Mês(s)"
-    }
-   ]
+}]
