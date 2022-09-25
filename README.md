@@ -1,7 +1,6 @@
 # Banco de Dados Não Relacional
 
-## Projeto
-### Descrição
+### Descrição do Projeto
 - O projeto do Banco de Dados Não Relacional, tem como objetivo a vizualização de informações sobre os alunos, professores e matéria disponibilizadas, por meio de uma imagem Mongo criada justamente para esses dados.
 - "Alunos" é possivel encontrar dados como nome completo, RA e e-mail. 
 - "Professor", são oferecidos os nomes, os e-mails e o código referente a matéria dada pelo mesmo e tempo de casa na universidade.
