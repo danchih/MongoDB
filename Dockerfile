@@ -8,7 +8,7 @@ LABEL name=MongoDB
 RUN apt update
 RUN apt install git -y
 
-# Chamando o repositorio selecionado dentro do github (Ao clona o git ele ja criara uma pasta (no caso nomeada de MongoDB por causa do LABEL) dentro da imagem e enviara os arquivos do git para ela)
+# Chamando o repositorio selecionado dentro do github (Ao clona o git ele ja criara uma pasta (nesse caso nomeada de 'MongoDB' por causa do nome do repositorio do github) dentro da imagem e enviara os arquivos do git para ela)
 RUN git clone https://github.com/danchih/MongoDB.git
 
 # Expondo a porta que será utilizada pela imagem
