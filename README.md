@@ -8,13 +8,13 @@
 - "Matéria" há os nomes das matérias, o código delas e o prédio/sala onde acontece as aulas.
 
 ### Status do projeto: 
-Concluído.
+- Concluído.
 
 ### Funcionalidades:
 - Obter os dados sobre as aulas, os alunos que frequentam e os professor que lecionam.
 
 ### Acesso ao Projeto:
-Para acessar o projeto, você pode realizar os processos descritos no "Manual.txt"
+- Para acessar o projeto, você pode realizar os processos descritos no "Manual.txt"
 
 [![GitHub Manual](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/danchih/MongoDB/blob/main/Manual.txt)
 
