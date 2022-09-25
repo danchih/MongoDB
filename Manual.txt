@@ -1,0 +1,39 @@
+MANUAL DE EXECUÇÃO DA IMAGEM MONGO:
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TERMINAL PC / VS CODE:
+
+docker build -t dockermongo:1.0.0 .                                 \\ Construição da imagem (esse passo nao é necessario se utilizar o repositorio do Docker Hub)
+
+docker run -it --name trabalho_MongoDB dockermongo:1.0.0            \\ Inicializando um container nomeado de "trabalhoMongoDB" da imagem criada (a imagem é  danchih/dockermongo:1.0.0  se estiver utilizando o Docker Hub)
+
+docker ps                                                           \\ Sera utilizado para descobrir o ID do container
+
+docker container exec -it <mongo-container-id> /bin/bash              \\ Comando para entrar dentro do terminal do container (bash) / o comando tambem poderia ser: docker container exec -it <mongo-container-id> /bin/sh
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+TERMINAL DO CONTAINER:
+
+ls                                                                  \\ Ver as pastas existentes dentro do container
+
+
+mongoimport --db='tabelas' --collection='Alunos' --file='MongoDB/Alunos.json' --jsonArray        \\ Utilizado para importar arquivos .json para dentro do mongo \ --db= cria uma databasse ou conecta a uma existente \ --collections= same as db 
+mongoimport --db='tabelas' --collection='Materia' --file='MongoDB/Matéria.json' --jsonArray      \\ --file= conecta a uma pasta e importa apenas 1 arquivo por vez \ --jsonArray  utiliza-se caso o aquivo tenha Array dentro dele 
+mongoimport --db='tabelas' --collection='Professores' --file='MongoDB/Professores.json' --jsonArray
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+TERMINAL MONGO:
+
+mongosh                                                             \\ Comando para iniciar o acesso ao terminal mongo
+
+show databases                                                      \\ Mostrar as databases existentes no mongoDB
+
+use <nome_do_database>                                              \\ Entrar na database desejada
+
+show collections                                                    \\ Mostrar as collections existentes na database selecionada
+
+db.<collection>.find()                                              \\ <collection> = nome da collection que deseja fazer consulta / find = faz consultas no MongoDB e, quando usada sem parâmetros, retorna todos os documentos da coleção
+
