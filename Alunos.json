@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "632466e9fb02054c80317866"
+  },
+  "Nome": "Beatriz Newman",
+  "RA": "22000001",
+  "Email": "beatriz.newman@puccampinas.edu.br"
+},{
+  "_id": {
+    "$oid": "6324677bfb02054c80317867"
+  },
+  "Nome": "Daniela Hayashi",
+  "RA": "22000002",
+  "Email": "daniela.hayashi@puccampinas.edu.br"
+},{
+  "_id": {
+    "$oid": "6324680afb02054c80317868"
+  },
+  "Nome": "Flavia Medeiros",
+  "RA": "22000003",
+  "Email ": "flavia.medeiros@puccampinas.edu.br"
+},{
+  "_id": {
+    "$oid": "63246936fb02054c80317869"
+  },
+  "Nome": "Giovana Alarcon",
+  "RA": "22000004",
+  "Email": "giovana.alarcon@puccampinas.edu.br"
+},{
+  "_id": {
+    "$oid": "632469d7fb02054c8031786a"
+  },
+  "Nome": "Luana Baptista",
+  "RA": "22000005",
+  "Email": "luana.baptista@puccampinas.edu.br"
+}]
