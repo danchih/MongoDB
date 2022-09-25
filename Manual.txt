@@ -18,8 +18,8 @@ TERMINAL DO CONTAINER:
 ls                                                                  \\ Ver as pastas existentes dentro do container
 
 
-mongoimport --db='tabelas' --collection='Alunos' --file='MongoDB/Alunos.json' --jsonArray        \\ Utilizado para importar arquivos .json para dentro do mongo \ --db= cria uma databasse ou conecta a uma existente \ --collections= same as db 
-mongoimport --db='tabelas' --collection='Materia' --file='MongoDB/Matéria.json' --jsonArray      \\ --file= conecta a uma pasta e importa apenas 1 arquivo por vez \ --jsonArray  utiliza-se caso o aquivo tenha Array dentro dele 
+mongoimport --db='tabelas' --collection='Alunos' --file='MongoDB/Alunos.json' --jsonArray             \\ Utilizado para importar arquivos .json para dentro do mongo \ --db= cria uma databasse ou conecta a uma existente \ --collections= same as db 
+mongoimport --db='tabelas' --collection='Materia' --file='MongoDB/Matéria.json' --jsonArray           \\ --file= conecta a uma pasta e importa apenas 1 arquivo por vez \ --jsonArray  utiliza-se caso o aquivo tenha Array dentro dele 
 mongoimport --db='tabelas' --collection='Professores' --file='MongoDB/Professores.json' --jsonArray
 
 
